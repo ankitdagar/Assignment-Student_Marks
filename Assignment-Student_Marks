@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+/**
+ * @author ankitdagar
+ *
+ */
+package studentMarks;
+import java.util.Scanner;
+
+public class studentmarks {
+
+	public static void main(String[] args) {
+		Scanner wow = new Scanner(System.in);
+
+System.out.println("\n  ** Test Mark is Out 25 ** ");
+		
+char Ankit = 0;
+char fl1=Ankit;
+
+
+		System.out.println("Enter Your FIRST name :- ");
+			String fname = wow.nextLine();
+		System.out.println("Enter Your LAST name :- ");
+			String lname = wow.nextLine();
+int n=4;
+//where n is the number of students.
+{
+for (int i=1;i<=n;i++)
+    {
+		System.out.println("\nMarks in FIRST test:- ");
+			float firstTest = wow.nextFloat();
+		System.out.println("Marks in SECOND test:- ");
+			float SecondTest = wow.nextFloat();
+		System.out.println("Marks in THIRD test:- ");
+			float ThirdTest = wow.nextFloat();
+		System.out.println("Marks in FOURTH test:- ");
+			float FourthTest = wow.nextFloat();
+
+	
+			float TotalMarks = ((firstTest ) +( SecondTest ) +( ThirdTest )+( FourthTest));
+
+		System.out.println("The Total Mark of " + lname +" is "+TotalMarks + " Out of 100 "+ " & ");
+		System.out.println("Marks in FIRST test:- " + firstTest +
+					"\nMarks in SECOND test:- " + SecondTest +
+					"\nMarks in THIRD test:- " + ThirdTest+
+					"\nMarks in FOURTH test:- " + FourthTest);
+   	 }
+
+	}
+	}
+	}
